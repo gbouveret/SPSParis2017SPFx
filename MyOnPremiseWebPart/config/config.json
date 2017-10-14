@@ -1,0 +1,14 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/helloWorld/HelloWorldWebPart.js",
+      "manifest": "./src/webparts/helloWorld/HelloWorldWebPart.manifest.json",
+      "outputPath": "./dist/hello-world-web-part.bundle.js"
+    }
+  ],
+  "externals": {},
+  "localizedResources": {
+    "HelloWorldWebPartStrings": "webparts/helloWorld/loc/{locale}.js",
+    "PropertyControlStrings": "../node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"    
+  }
+}
